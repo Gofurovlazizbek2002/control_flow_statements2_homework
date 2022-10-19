@@ -11,12 +11,12 @@ def main(a,b,c):
 
 
     if a>b and a>c:
-        print(a)
+        return a
     if b>a and b>c:
-        print(b)
+        return b
     if c>a and c>b:
-        print(c) 
-    return 0
+        
+       return c
 
 
-print(main(24,35,46))
+print(main(3,35,38))
