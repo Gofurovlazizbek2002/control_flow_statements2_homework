@@ -15,6 +15,7 @@ def main(number):
         str: return answer.
     """
     if nomber ==1:
+
         g='Monday'
     elif nomber ==2:
         g='Tuesday'
@@ -28,5 +29,5 @@ def main(number):
         g='Saturday'
     elif nomber ==7:
         g='Sunday'
-    
+     
     return g
