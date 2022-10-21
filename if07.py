@@ -19,7 +19,6 @@ def main(temp):
       s= "Very Cold"
     elif temp >= 11 and temp <21:
         s="Cold"
-
     elif temp >= 21 and temp < 31:
         s="Normal"
     elif temp >= 31 and temp < 41:
@@ -27,3 +26,5 @@ def main(temp):
     elif temp >=41:
         s="Verry Hot"
     return s
+
+print(main(-4))
