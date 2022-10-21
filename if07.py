@@ -27,4 +27,4 @@ def main(temp):
         s="Verry Hot"
     return s
 
-print(main(-4))
+print(main(-4))  
