@@ -14,4 +14,19 @@ def main(number):
     Returns:
         str: return answer.
     """
-    return
+    if nomer ==1:
+        g='Monday'
+    elif nomer ==2:
+        g='Tuesday'
+    elif nomer ==3:
+        g='Wednesday'
+    elif nomer ==4:
+        g='Thursday'
+    elif nomer ==5:
+        g='Friday'
+    elif nomer ==6:
+        g='Saturday'
+    elif nomer ==7:
+        g='Sunday'
+    
+    return g
