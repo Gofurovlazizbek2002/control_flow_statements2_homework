@@ -31,3 +31,5 @@ def main(nomber):
         g='Sunday'
      
     return g
+
+print(main(5))
