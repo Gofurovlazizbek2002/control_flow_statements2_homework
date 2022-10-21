@@ -13,8 +13,8 @@ def main(a,b):
         m=a
     if b>a:
         m=b
-        return m
+    return m
      
     
 
-    print(main(45,56))
+print(main(45,45))
